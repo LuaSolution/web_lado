@@ -249,7 +249,7 @@ html::before,html::after,body::before,body::after {
   background: url(../img/bg9.jpg) #0071cc;
 }
 
-.inverted-section2 h1,.inverted-section2 h2,.inverted-section2 h3,.inverted-section2 h4 {
+.inverted-section2 h1,.inverted-section2 h4 {
   color: #fff!important;
 }
 
