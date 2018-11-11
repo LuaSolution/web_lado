@@ -1344,7 +1344,7 @@ html::before,html::after,body::before,body::after {
 }
 
 .main-slide1 {
-  background-image: url(../img/bg4.jpg);
+  background-image: url(../img/bg.gif);
   background-attachment: fixed;
 }
 
@@ -2918,4 +2918,8 @@ html.safari::before,html.safari::after {
 
 .tabs-buttons li a {
   color: #76bd1d
+}
+
+a {
+  color: #76bd1d !important
 }

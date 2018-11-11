@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lado Technology & Solution Consultancy</title>
-
+	<link rel="shortcut icon" href="img/icon.png">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <link rel="stylesheet" href="./css/owl.theme.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
@@ -18,6 +18,24 @@
     <script type="text/javascript" src="./js/waypoints.min.js"></script>
 </head>
 <body>
+	<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="311392012972400"
+  theme_color="#76bd1d"
+  logged_in_greeting="Xin chào, muốn gì thì chat vô đây mày?"
+  logged_out_greeting="Xin chào, muốn gì thì chat vô đây mày?">
+</div>
 	<!-- HEADER -->
 	<header id="header" class="">
 		<nav class="navbar">
@@ -516,8 +534,8 @@
 				<!-- /col -->
 			</div>
 			<!-- /row -->
-		</div>	
+		</div>
 	</footer>
-<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/main.min.js"></script>
 </body>
 </html>
