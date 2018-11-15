@@ -1348,7 +1348,7 @@ html::before,html::after,body::before,body::after {
 }
 
 .main-slide1 {
-  background-image: url(../img/bg.png);
+  background-image: url(../img/bg.PNG);
   background-attachment: fixed;
 }
 
