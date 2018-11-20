@@ -169,3 +169,20 @@ $(document).ready(function(){
 
 //End - Use Strict mode
 })(jQuery);
+
+
+$(document).ready(function(){
+  $(".secondary-menu .btn-join").click(function(event) {
+    $("#sendmail").stop();
+    $("#sendmail").slideToggle('fast', function() {
+      
+    });
+  });
+
+  $(".sendmail-close").click(function(event) {
+    $("#sendmail").stop();
+    $("#sendmail").slideUp('fast', function() {
+      
+    });
+  });
+});
