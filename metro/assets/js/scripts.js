@@ -214,13 +214,6 @@ jQuery(document).ready(function ($) {
     })
   }
 
-
-  $(document).on("click", "#project-info .back", function () {
-    $(this).parent().parent().hide(500)
-    $(this).parent().html('<i class="icon-remove back"></i>')
-  })
-
-
   $('.vertical-menu > *').addClass('animated')
 
   $('.showMenu').on('click', function () {
